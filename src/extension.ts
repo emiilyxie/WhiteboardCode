@@ -85,12 +85,20 @@ function getWebviewContent() {
 	<head>
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<title>Cat Coding</title>
+			<title>Capybara Coding</title>
+			<style>
+				#new-sketch-button {
+					padding: 10px 15px;
+					margin-bottom: 30px;
+					background-color: white;
+					border-radius: 20px;
+				}
+			</style>
 	</head>
 	<body>
 		<div class="tenor-gif-embed" width="300" data-postid="9391717" data-share-method="host" data-aspect-ratio="1.77857" data-width="100%"><a href="https://tenor.com/view/capybara-onsen-animals-chilling-relaxing-gif-9391717">Capybara Onsen GIF</a>from <a href="https://tenor.com/search/capybara-gifs">Capybara GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 			<p id="selection-range">Select some code and attach a sketch to it!</p>
-			<button id="new-sketch-button">Add new sketch</button>
+			<button id="new-sketch-button">New sketch</button>
 			<div id="top-of-page"></div>
 			<script>
 				(
