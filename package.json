@@ -19,8 +19,8 @@
       },
       {
         "command": "catCoding.start",
-        "title": "Start new cat coding session",
-        "category": "Cat Coding"
+        "title": "Start new capybara coding session",
+        "category": "Capybara Coding"
       }
     ]
   },

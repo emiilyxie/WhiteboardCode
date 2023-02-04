@@ -9,7 +9,7 @@ export function activate(context: vscode.ExtensionContext) {
       // Create and show panel
       currentPanel = vscode.window.createWebviewPanel(
         'catCoding',
-        'Cat Coding',
+        'Capybara Coding',
         vscode.ViewColumn.Two,
         {
 					enableScripts: true
@@ -88,7 +88,7 @@ function getWebviewContent() {
 			<title>Cat Coding</title>
 	</head>
 	<body>
-			<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="300" />
+		<div class="tenor-gif-embed" width="300" data-postid="9391717" data-share-method="host" data-aspect-ratio="1.77857" data-width="100%"><a href="https://tenor.com/view/capybara-onsen-animals-chilling-relaxing-gif-9391717">Capybara Onsen GIF</a>from <a href="https://tenor.com/search/capybara-gifs">Capybara GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 			<p id="selection-range">Select some code and attach a sketch to it!</p>
 			<button id="new-sketch-button">Add new sketch</button>
 			<div id="top-of-page"></div>
@@ -184,7 +184,7 @@ function getWebviewContent() {
 	
 							let draw = (event) => {
 								if (!painting) return;
-								ctx.lineWidth = 5;
+								ctx.lineWidth = 3;
 								ctx.lineCap = "round";
 								ctx.strokeStyle = "black";
 	
