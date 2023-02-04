@@ -1,3 +1,14 @@
+## how 2 use for now
+1. cd into directory
+2. run "npm install"
+3. open project in vscode (can do that with "code ." command in project directory)
+4. hit F5 to build + run extension
+5. hit ctl/cmd + shift + p to bring up command menu
+6. run "Cat Coding: start a new cat coding session" command (it's the default one from the tutorial i have not changed it)
+7. experience peak efficiency with ur coding
+
+the rest of the readme is just default readme, i'll change this later
+
 # whiteboardcode README
 
 This is the README for your extension "whiteboardcode". After writing up a brief description, we recommend including the following sections.
