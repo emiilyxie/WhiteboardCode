@@ -5,18 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capybara Coding</title>
     <style>
+      body {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #selection-range{
+        font-size: 15px;
+      }
+
       #new-sketch-button {
         padding: 10px 15px;
         margin-bottom: 30px;
         background-color: white;
-        border-radius: 20px;
+        border-radius: 17px;
+        font-weight: 600;
       }
-    </style>
+
+      #new-sketch-button:hover {
+        background-color: gray;
+        color: white;
+      }
+
+      canvas{
+        border: solid;
+        border-radius: 5px;
+      }
+
+      .sketch-details{
+        margin-bottom: 15px;
+        margin-top:15px;
+
+      }
+
+</style>
 </head>
 <body>
-  <div class="tenor-gif-embed" width="300" data-postid="9391717" data-share-method="host" data-aspect-ratio="1.77857" data-width="100%"><a href="https://tenor.com/view/capybara-onsen-animals-chilling-relaxing-gif-9391717">Capybara Onsen GIF</a>from <a href="https://tenor.com/search/capybara-gifs">Capybara GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-		<p id="selection-range">Select some code and attach a sketch to it!</p>
-    <button id="new-sketch-button">New sketch</button>
+    <img src="https://media.tenor.com/BAa9ZAJiqxoAAAAC/capybara-onsen.gif" width="600px">
+		<p id="selection-range">select some code and attach a sketch to it!</p>
+    <button id="new-sketch-button">new sketch</button>
     <div id="top-of-page"></div>
 		<script>
       (
@@ -75,6 +103,7 @@
             }
             titleId = titleId + i;
             title.id = titleId;
+            title.className = "sketch-details";
             title.innerHTML = "start line: " + sketchData[0] + "<br>end line: " + sketchData[1] + "<br>file: " + sketchData[2];
             document.body.appendChild(title);
             title.appendAfter(topOfPage);
